@@ -1,1 +1,18 @@
-
+<bug_report>
+	<id>b01</id>
+	<environment>Redmi 5 Plus (Android 7, MIUI Global 9.2)
+</environment>
+	<bug_summary>The duration of the exercise doesn't take the time specified in the settings</bug_summary>
+	<steps_to_reproduce>Steps to reproduce
+    
+		<li>1. Open the application</li>
+		<li>2. Open settings</li>
+		<li>3. Open difficulty and exercises - setting</li>
+		<li>4. Change the setting 'Duration of exercise' to the level 'Long' (10 min)</li>
+		<li>5. Complete the task</li>
+	</steps_to_reproduce>
+	<actual_result>The workout takes 3 minutes 7 seconds</actual_result>
+	<expected_result>The workout takes 10 minutes</expected_result>
+	<priority>Medium</priority>
+	<severity>Major</severity>
+</bug_report>
